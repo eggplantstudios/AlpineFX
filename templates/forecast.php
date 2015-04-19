@@ -1,6 +1,8 @@
+<style>
+    <?php include('alpinefx.css'); ?>
+</style>
 
 <div class="alpinefx">
-    <link href="AlpineFX/templates/alpinefx.css" type="text/css" rel="stylesheet" />
     <?php
     $fc = $this->get_forecasts();
 
