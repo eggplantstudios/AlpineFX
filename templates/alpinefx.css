@@ -1,0 +1,71 @@
+.alpinefx
+{
+    font-family: sans-serif;
+}
+
+.alpinefx .alpinefx-forecasts td,
+.alpinefx .alpinefx-forecasts th
+{
+    vertical-align: top;
+}
+
+.alpinefx .alpinefx-forecast
+{
+    border: 1px solid #eeeeee;
+    background: white;
+    vertical-align: top;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    padding: 2px;
+}
+
+.alpinefx .alpinefx-forecast th,
+.alpinefx .alpinefx-forecast td
+{
+    padding: 6px;
+    text-align: center;
+    font-size: 12px;
+}
+.alpinefx .alpinefx-forecast th
+{
+    font-size: 10px; padding: 6px;
+    font-style: italic; color: #888888;
+}
+
+.alpinefx .alpinefx-forecast th.alpinefx-table-heading {
+    background: #00769a;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.alpinefx .alpinefx-summary
+{
+    font-style: italic;
+}
+.alpinefx td.alpinefx-temperatures
+{
+    font-size: 14px;
+    line-height: 200%;
+    font-style: italic; color: #888888;
+}
+.alpinefx td.alpinefx-temperatures strong
+{
+    font-size: 22px;
+    font-style: normal; color: #333333;
+}
+
+.alpinefx .alpinefx-meta
+{
+    text-align: right;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.aplinefx-error
+{
+    color: #920808;
+    border: 1px solid #920808;
+    border-left: 4px solid #920808;
+    padding: 6px;
+    font-weight: bold;
+}
