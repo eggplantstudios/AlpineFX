@@ -9,6 +9,7 @@
 include('AlpineFX.php');
 
 ob_start();
+$resource = null;
 
 if( isset( $_GET['resource'] ) )
 {
@@ -24,6 +25,10 @@ else
 $html = ob_get_clean();
 
 header( "Content-Type: text/javascript" );
-echo 'AlpineFXCallback(' . json_encode(array('html' => $html)) . ')';
+echo 'AlpineFXCallback(' . json_encode(array(
+            'resource' => $resource,
+            'html' => $html
+            )
+        ) . ')';
 
 exit();
